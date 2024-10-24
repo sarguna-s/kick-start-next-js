@@ -10,7 +10,6 @@ const HomePage = () => {
 
       <Card />
       <Link href="/list-page" className="submit">
-        {" "}
         submit
       </Link>
     </section>

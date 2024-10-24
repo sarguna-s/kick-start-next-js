@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
     "strict": true,
+    // "types": ["jest", "node"],
     "noEmit": true,
     "jsx": "preserve",
     "baseUrl": "./src/",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "incremental": true,
@@ -29,7 +26,5 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
